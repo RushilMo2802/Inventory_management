@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; /* Align items toward the top */
+  height: 100vh; 
+  margin: 0;
+  background-color: #ecf0f1; 
+  padding-top: 60px; /* Add space from the top */
+}
+
+.form-box {
+  background-color: #f4f6f7;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-box label {
+  display: block;
+  margin: 10px 0;
+}
+
+.form-box input,
+.form-box textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-box button {
+  background-color: #16a085;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.form-box button:hover {
+  background-color: #1abc9c;
+}
