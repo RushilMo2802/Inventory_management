@@ -73,8 +73,7 @@ inventory-management/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/RushilMo2802/<repo-name>.git
-cd <repo-name>
+
 ```
 
 ### 2️⃣ Set Up MySQL Database
